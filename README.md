@@ -1,1 +1,1 @@
-Adopt a Pet website - Uses Mock Service Worker to get pet data interally and display associated search querries to the UI
+Adopt a Pet website - Uses Mock Service Worker to get pet data interally and display associated search querries to the UI using React
