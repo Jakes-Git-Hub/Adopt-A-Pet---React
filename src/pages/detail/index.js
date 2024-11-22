@@ -10,7 +10,7 @@ const PetDetailsPage = () => {
   const [data, setData] = useState();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const { id } = useParams(); // <--- Update me!
+  const { id } = useParams();
 
   useEffect(() => {
     async function getPetsData() {

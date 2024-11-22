@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "rootDir": "./src",
+        "resolveJsonModule": true,
+        "noImplicitAny": false,
+        // Change ^ to true after converting js files to tsx for app.tsx
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react-jsx"
+    },
+    "include": [
+        "src/**/*.ts", 
+        "src/**/*.tsx",
+        "src/**/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

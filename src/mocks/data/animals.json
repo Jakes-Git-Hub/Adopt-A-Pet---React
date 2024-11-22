@@ -787,7 +787,7 @@
       },
       "environment": { "children": null, "dogs": null, "cats": null },
       "tags": [],
-      "name": "47605343",
+      "name": "Rex",
       "description": null,
       "organization_animal_id": "47605343",
       "photos": [],
@@ -846,7 +846,7 @@
       "environment": { "children": null, "dogs": true, "cats": null },
       "tags": ["Loving", "Affectionate", "Happy", "Friendly"],
       "name": "Roscoe",
-      "description": "Roscoe is a sweet \u0026amp; friendly Boxer/Shepherd mix who is 3 yrs old, weighs 50 lbs, and is in IMMEDIATE...",
+      "description": "Roscoe is a sweet & friendly Boxer/Shepherd mix who is 3 yrs old, weighs 50 lbs, and is in IMMEDIATE...",
       "organization_animal_id": null,
       "photos": [
         {
@@ -1078,7 +1078,7 @@
       "environment": { "children": null, "dogs": true, "cats": true },
       "tags": [],
       "name": "Merrick",
-      "description": "This noble old man was found at a Luv\u0026#039;s truck stop.  There were different versions of how he got there....",
+      "description": "This noble old man was found at a Luv's truck stop.  There were different versions of how he got there....",
       "organization_animal_id": null,
       "photos": [
         {
@@ -1369,7 +1369,7 @@
       },
       "environment": { "children": null, "dogs": null, "cats": null },
       "tags": [],
-      "name": "586710",
+      "name": "Doge",
       "description": null,
       "organization_animal_id": "586710",
       "photos": [],
@@ -2805,7 +2805,7 @@
       },
       "environment": { "children": true, "dogs": null, "cats": null },
       "tags": [],
-      "name": "Nani 47005794",
+      "name": "Nani",
       "description": "Meet Nani a 7 year old German Shepherd who came in as an owner surrender due to having a tumor...",
       "organization_animal_id": "47005794",
       "photos": [
@@ -2895,8 +2895,8 @@
         "Alert",
         "Interactive"
       ],
-      "name": "Reef A-2841",
-      "description": "Hi! I\u0026#039;m Reef! If you\u0026#039;re looking for someone to pour your heart into, please consider me.  I\u0026#039;m about 6 months...",
+      "name": "Reef",
+      "description": "Hi! I'm Reef! If you're looking for someone to pour your heart into, please consider me.  I'm about 6 months...",
       "organization_animal_id": null,
       "photos": [
         {
