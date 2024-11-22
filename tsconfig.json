@@ -18,7 +18,7 @@
         "src/**/*.ts", 
         "src/**/*.tsx",
         "src/**/*.d.ts"
-    ],
+, "src/api/petfinder/index.js"    ],
     "exclude": [
         "node_modules",
         "dist"
