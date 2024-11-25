@@ -12,13 +12,18 @@
         // Change ^ to true after converting js files to tsx for app.tsx
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
+        "lib": ["dom", "es2015", "es2015.iterable", "es2017", "esnext"],
         "jsx": "react-jsx"
     },
     "include": [
+        "src",
         "src/**/*.ts", 
         "src/**/*.tsx",
-        "src/**/*.d.ts"
-, "src/api/petfinder/index.js"    ],
+        "src/**/*.d.ts", 
+        "src/api/petfinder/index.js", 
+        "src/pages/detail/index.tsx",
+        "src/global.d.ts"
+    ],
     "exclude": [
         "node_modules",
         "dist"
