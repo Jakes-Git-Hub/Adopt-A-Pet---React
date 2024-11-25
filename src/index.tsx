@@ -8,7 +8,7 @@ worker.start();
 
 const container = document.getElementById('root');
 if (container) {
-  const root = ReactDOM.createRoot(container);
+  const root = ReactDOM.createRoot(container as HTMLElement);
   root.render(
     <React.StrictMode>
       <App />
