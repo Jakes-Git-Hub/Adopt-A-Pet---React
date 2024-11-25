@@ -19,10 +19,7 @@
         "src",
         "src/**/*.ts", 
         "src/**/*.tsx",
-        "src/**/*.d.ts", 
-        "src/api/petfinder/index.js", 
-        "src/pages/detail/index.tsx",
-        "src/global.d.ts"
+        "src/**/*.d.ts"
     ],
     "exclude": [
         "node_modules",
