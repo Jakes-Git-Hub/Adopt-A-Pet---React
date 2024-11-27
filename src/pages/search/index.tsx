@@ -83,7 +83,7 @@ const SearchPage = () => {
 
   const [ searchParams ] = useSearchParams();
 
-  const petNameToFind = searchParams.get('name');
+  const petNameToFind = searchParams.get('name') || '';
 
   const [pets, setPets] = useState<Pet[] | null>([]);
 
