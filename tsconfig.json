@@ -8,8 +8,7 @@
         "skipLibCheck": true,
         "rootDir": "./src",
         "resolveJsonModule": true,
-        "noImplicitAny": false,
-        // Change ^ to true after converting js files to tsx for app.tsx
+        "noImplicitAny": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
         "lib": ["dom", "es2015", "es2015.iterable", "es2017", "esnext"],
