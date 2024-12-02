@@ -1,20 +1,10 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = __importDefault(require("react"));
-var react_router_dom_1 = require("react-router-dom");
-var PetDetailsNotFound = function () {
-    var navigate = (0, react_router_dom_1.useNavigate)();
-    var goHome = function () {
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { useNavigate } from 'react-router-dom';
+const PetDetailsNotFound = () => {
+    const navigate = useNavigate();
+    const goHome = () => {
         navigate('/');
     };
-    return (react_1.default.createElement("main", { className: "page" },
-        react_1.default.createElement("h3", null, "404: Who let the dogs out?"),
-        react_1.default.createElement("p", null, "Sorry, but the details for this pet have not been uploaded by the shelter yet. Check back later!"),
-        react_1.default.createElement("img", { src: "https://i.chzbgr.com/full/8362031616/h9EB970C5/weve-lost-our-corgination", alt: "" }),
-        react_1.default.createElement("div", { className: "actions-container" },
-            react_1.default.createElement("button", { className: "button", onClick: goHome }, "Go Home"))));
+    return (_jsxs("main", { className: "page", children: [_jsx("h3", { children: "404: Who let the dogs out?" }), _jsx("p", { children: "Sorry, but the details for this pet have not been uploaded by the shelter yet. Check back later!" }), _jsx("img", { src: "https://i.chzbgr.com/full/8362031616/h9EB970C5/weve-lost-our-corgination", alt: "" }), _jsx("div", { className: "actions-container", children: _jsx("button", { className: "button", onClick: goHome, children: "Go Home" }) })] }));
 };
-exports.default = PetDetailsNotFound;
+export default PetDetailsNotFound;
