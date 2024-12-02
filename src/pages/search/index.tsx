@@ -4,7 +4,7 @@ import { getPets } from '../../api/petfinder';
 import Pet from '../../components/pet';
 import { useSearchParams } from 'react-router-dom';
 
-interface Pet {
+interface PetTypes {
   id: number;
   organization_id: string | null;
   url: string | null;
@@ -85,7 +85,7 @@ const SearchPage = () => {
 
   const petNameToFind = searchParams.get('name') || '';
 
-  const [pets, setPets] = useState<Pet[] | null>([]);
+  const [pets, setPets] = useState<PetTypes[] | null>([]);
 
   useEffect(() => {
     async function getPetsData() {
